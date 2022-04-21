@@ -1,7 +1,6 @@
 import json
 import pygame
 
-
 class Stats:
     s_gamesplayed = 0
 
@@ -221,3 +220,16 @@ class Team(Stats):
 
     def __repr__(self):
         return f'{self.ID} - {self.roster}'
+
+class Ballset:
+    def __init__(self):
+        self.rackofnine = {'1':{'on':pygame.image.load('1-100.png'),'off':pygame.image.load('1-25.png')},
+                           '2':{'on':pygame.image.load('2-100.png'),'off':pygame.image.load('2-25.png')},
+                           '3':{'on':pygame.image.load('3-100.png'),'off':pygame.image.load('3-25.png')},
+                           '4':{'on':pygame.image.load('4-100.png'),'off':pygame.image.load('4-25.png')},
+                           '5':{'on':pygame.image.load('5-100.png'),'off':pygame.image.load('5-25.png')},
+                           '6':{'on':pygame.image.load('6-100.png'),'off':pygame.image.load('6-25.png')},
+                           '7':{'on':pygame.image.load('7-100.png'),'off':pygame.image.load('7-25.png')},
+                           '8':{'on':pygame.image.load('8-100.png'),'off':pygame.image.load('8-25.png')},
+                           '9':{'on':pygame.image.load('9-100.png'),'off':pygame.image.load('9-25.png')}}
+
