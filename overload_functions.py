@@ -1,8 +1,7 @@
 import pygame
 import random
 from time import asctime
-from Ballset import *
-from nbloverloaded import *
+from overload_models import *
 
 '''
 NBL OVERLOAD FUNCTIONS
